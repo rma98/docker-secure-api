@@ -88,6 +88,6 @@ Este projeto é apenas educacional e feito com 💙 por Robson Albuquerque.
 ---
 
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
-![Plataforma](https://img.shields.io/badge/Plataforma-Localhost-blue)
+![Plataforma](https://img.shields.io/badge/Plataforma-Docker-blue)
 ![Linguagem](https://img.shields.io/github/languages/top/Rma98/docker-secure-api)
 ![Último commit](https://img.shields.io/github/last-commit/Rma98/docker-secure-api)
