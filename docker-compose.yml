@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  api:
+    build: ./api
+    container_name: api-segura
+    ports:
+      - "3000:3000"
+    networks:
+      - rede-interna
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  rede-interna:
+    driver: bridge
