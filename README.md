@@ -51,6 +51,26 @@ API segura rodando com Docker!
 
 ---
 
+## 🌍 Como rodar a API em qualquer máquina com Docker instalado
+
+### 1. Baixe e rode diretamente a imagem publicada no Docker Hub
+
+```bash
+docker run -p 3000:3000 robson098/docker-secure-api:latest
+```
+
+---
+
+## ☁️ Como publicar sua própria imagem no Docker Hub
+
+> Substitua `meu-servidor-docker-api` pelo nome da sua imagem local, se diferente.
+
+```bash
+docker tag meu-servidor-docker-api:latest robson098/docker-secure-api:latest
+docker push robson098/docker-secure-api:latest
+```
+---
+
 ## 🔐 Segurança e boas práticas aplicadas
 
 - Porta configurada via variável de ambiente
